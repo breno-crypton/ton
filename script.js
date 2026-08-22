@@ -33,7 +33,7 @@ const produtos = {
     nome: "Ton T3",
     preco: "R$ 91,80",
     parcelamento: "12x de R$ 7,65 sem juros",
-    imagem: "images/ton_t3.svg",
+    imagem: "Captura de tela 2026-08-21 234713.png",
     descricao: "Versão intermediária com tela maior e impressão de comprovante mais rápida, pensada para negócios com volume médio de vendas.",
     beneficios: [
       "Impressão de comprovante integrada",
