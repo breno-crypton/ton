@@ -1,0 +1,22 @@
+<svg viewBox="0 0 240 340" xmlns="http://www.w3.org/2000/svg">
+  <rect x="18" y="8" width="204" height="324" rx="30" fill="#EDEFE8" stroke="#C7CBC0" stroke-width="2"/>
+  <rect x="34" y="26" width="172" height="96" rx="12" fill="#0FA958"/>
+  <rect x="50" y="48" width="96" height="9" rx="4.5" fill="rgba(255,255,255,0.92)"/>
+  <rect x="50" y="66" width="64" height="9" rx="4.5" fill="rgba(255,255,255,0.55)"/>
+  <text x="178" y="98" font-family="'Space Grotesk',sans-serif" font-size="22" font-weight="700" fill="rgba(255,255,255,0.9)" text-anchor="end">T3S</text>
+  <circle cx="66" cy="150" r="9" fill="#FFFFFF" stroke="#D7DBD0" stroke-width="1.5"/>
+<circle cx="112" cy="150" r="9" fill="#FFFFFF" stroke="#D7DBD0" stroke-width="1.5"/>
+<circle cx="158" cy="150" r="9" fill="#FFFFFF" stroke="#D7DBD0" stroke-width="1.5"/>
+<circle cx="66" cy="178" r="9" fill="#FFFFFF" stroke="#D7DBD0" stroke-width="1.5"/>
+<circle cx="112" cy="178" r="9" fill="#FFFFFF" stroke="#D7DBD0" stroke-width="1.5"/>
+<circle cx="158" cy="178" r="9" fill="#FFFFFF" stroke="#D7DBD0" stroke-width="1.5"/>
+<circle cx="66" cy="206" r="9" fill="#FFFFFF" stroke="#D7DBD0" stroke-width="1.5"/>
+<circle cx="112" cy="206" r="9" fill="#FFFFFF" stroke="#D7DBD0" stroke-width="1.5"/>
+<circle cx="158" cy="206" r="9" fill="#FFFFFF" stroke="#D7DBD0" stroke-width="1.5"/>
+<circle cx="66" cy="234" r="9" fill="#FFFFFF" stroke="#D7DBD0" stroke-width="1.5"/>
+<circle cx="112" cy="234" r="9" fill="#FFFFFF" stroke="#D7DBD0" stroke-width="1.5"/>
+<circle cx="158" cy="234" r="9" fill="#FFFFFF" stroke="#D7DBD0" stroke-width="1.5"/>
+
+  <rect x="52" y="288" width="136" height="12" rx="6" fill="#B9BDB2"/>
+  <rect x="20" y="10" width="204" height="6" rx="3" fill="#0FA958" opacity="0.35"/>
+</svg>
