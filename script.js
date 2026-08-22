@@ -1,5 +1,5 @@
 /* =========================================================
-   INOVA MÁQUINAS — script.js
+   MAQUINAS PAY — script.js
    Toda a informação dos produtos (fotos, preços, descrições
    e links de compra) fica centralizada no objeto "produtos"
    abaixo. Para atualizar o site, basta editar este objeto —
@@ -13,8 +13,8 @@ const produtos = {
     marca: "ton",
     marcaLabel: "Ton",
     nome: "Ton T2",
-    preco: "R$ 69,00",
-    parcelamento: "12x de R$ 5,75 sem juros",
+    preco: "R$ 42,40",
+    parcelamento: "12x de R$ 3,53 sem juros",
     imagem: "images/ton_t2.svg",
     descricao: "Modelo de entrada da Ton, compacto e ideal para quem está começando a aceitar cartão. Fácil de configurar e de usar no dia a dia.",
     beneficios: [
@@ -25,14 +25,14 @@ const produtos = {
     ],
     conectividade: "Wi-Fi e Chip (3G/4G)",
     entrega: "Envio em até 5 dias úteis",
-    link: "COLE_AQUI_O_LINK_TON_T2"
+    link: "https://ton.com.br/checkout/cart/?coupon=BRUNASALESVC&productId=TONMEGA_TIER_D195&userAnticipation=0&userTag=tonmega_tier&utm_medium=invite_share&utm_source=revendedor"
   },
   ton_t3: {
     marca: "ton",
     marcaLabel: "Ton",
     nome: "Ton T3",
-    preco: "R$ 89,00",
-    parcelamento: "12x de R$ 7,42 sem juros",
+    preco: "R$ 91,80",
+    parcelamento: "12x de R$ 7,65 sem juros",
     imagem: "images/ton_t3.svg",
     descricao: "Versão intermediária com tela maior e impressão de comprovante mais rápida, pensada para negócios com volume médio de vendas.",
     beneficios: [
@@ -43,14 +43,14 @@ const produtos = {
     ],
     conectividade: "Wi-Fi, Bluetooth e Chip (3G/4G)",
     entrega: "Envio em até 5 dias úteis",
-    link: "COLE_AQUI_O_LINK_TON_T3"
+    link: "https://ton.com.br/checkout/cart/?coupon=BRUNASALESVC&productId=TONMEGA_TIER_S920&userAnticipation=0&userTag=tonmega_tier&utm_medium=invite_share&utm_source=revendedor"
   },
   ton_t3_smart: {
     marca: "ton",
     marcaLabel: "Ton",
     nome: "Ton T3 Smart",
-    preco: "R$ 110,00",
-    parcelamento: "12x de R$ 9,17 sem juros",
+    preco: "R$ 163,10",
+    parcelamento: "12x de R$ 13,59 sem juros",
     imagem: "images/ton_t3_smart.svg",
     descricao: "Maquininha inteligente com tela touch, ideal para quem quer gerenciar vendas, emitir relatórios e usar aplicativos direto no aparelho.",
     beneficios: [
@@ -61,7 +61,7 @@ const produtos = {
     ],
     conectividade: "Wi-Fi, Bluetooth e Chip (3G/4G)",
     entrega: "Envio em até 5 dias úteis",
-    link: "COLE_AQUI_O_LINK_TON_T3_SMART"
+    link: "https://ton.com.br/checkout/cart/?coupon=BRUNASALESVC&productId=TONMEGA_TIER_SMART_POS&userAnticipation=0&userTag=tonmega_tier&utm_medium=invite_share&utm_source=revendedor"
   },
 
   // ---------------- MERCADO PAGO (azul) ----------------
