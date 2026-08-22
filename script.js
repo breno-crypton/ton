@@ -188,8 +188,8 @@ const grids = {
 };
 
 function criarCard(id, produto) {
-  const card = document.createElement("article");
-  card.className = "card";
+    const card = document.createElement("article");
+  card.className = "card reveal";
   card.dataset.brand = produto.marca;
 
   card.innerHTML = `
@@ -315,4 +315,21 @@ nav.querySelectorAll("a").forEach((link) => {
     nav.classList.remove("is-open");
     navToggle.setAttribute("aria-expanded", "false");
   });
+});
+/* =========================================================
+   ANIMAÇÃO DE ENTRADA AO ROLAR A PÁGINA
+   ========================================================= */
+
+const revealObserver = new IntersectionObserver((entries) => {
+  entries.forEach((entry) => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add("is-visible");
+      revealObserver.unobserve(entry.target);
+    }
+  });
+}, { threshold: 0.15 });
+
+document.querySelectorAll(".reveal").forEach((el, index) => {
+  el.style.transitionDelay = `${(index % 3) * 0.08}s`;
+  revealObserver.observe(el);
 });
