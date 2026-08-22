@@ -15,7 +15,7 @@ const produtos = {
     nome: "Ton T2",
     preco: "R$ 42,40",
     parcelamento: "12x de R$ 3,53 sem juros",
-    imagem: "images/ton_t2.svg",
+    imagem: "T2.png",
     descricao: "Modelo de entrada da Ton, compacto e ideal para quem está começando a aceitar cartão. Fácil de configurar e de usar no dia a dia.",
     beneficios: [
       "Aceita débito, crédito e Pix",
@@ -51,7 +51,7 @@ const produtos = {
     nome: "Ton T3 Smart",
     preco: "R$ 163,10",
     parcelamento: "12x de R$ 13,59 sem juros",
-    imagem: "images/ton_t3_smart.svg",
+    imagem: "imagem: "T3_SMART.png",",
     descricao: "Maquininha inteligente com tela touch, ideal para quem quer gerenciar vendas, emitir relatórios e usar aplicativos direto no aparelho.",
     beneficios: [
       "Tela touch screen",
