@@ -48,11 +48,33 @@
 html { scroll-behavior: smooth; }
 
 body {
+  position: relative;
+  overflow-x: hidden;
   font-family: var(--font-body);
   background: var(--paper);
   color: var(--ink);
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
+}
+
+/* Fundo gerado: manchas suaves nas cores das marcas + grade de pontos */
+body::before {
+  content: "";
+  position: fixed;
+  inset: -10%;
+  z-index: -1;
+  background:
+    radial-gradient(600px circle at 15% 20%, rgba(15, 169, 88, 0.10), transparent 60%),
+    radial-gradient(700px circle at 85% 15%, rgba(5, 118, 199, 0.09), transparent 60%),
+    radial-gradient(650px circle at 50% 95%, rgba(0, 168, 104, 0.08), transparent 60%),
+    radial-gradient(circle, var(--line) 1px, transparent 1.5px) 0 0 / 26px 26px;
+  animation: meshMove 22s ease-in-out infinite alternate;
+  pointer-events: none;
+}
+
+@keyframes meshMove {
+  0%   { transform: translate3d(0, 0, 0) scale(1); }
+  100% { transform: translate3d(-2%, 2%, 0) scale(1.05); }
 }
 
 img { max-width: 100%; display: block; }
@@ -525,4 +547,14 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
     width: 100%;
   }
   .hero__ticket { padding: 44px 26px 36px; }
+}
+/* ===================== ANIMAÇÃO DE ENTRADA (SCROLL) ===================== */
+.reveal {
+  opacity: 0;
+  transform: translateY(24px);
+  transition: opacity 0.7s ease, transform 0.7s ease;
+}
+.reveal.is-visible {
+  opacity: 1;
+  transform: translateY(0);
 }
